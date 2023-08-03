@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-height: 200px;
+  min-width: 300px;
+  color: #f7f7f7;
+  background-color: rgb(79, 199, 5);
+}
