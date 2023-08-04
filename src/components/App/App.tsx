@@ -4,7 +4,7 @@ const App = (): React.ReactElement => {
   return (
     <div>
       <header className="header">
-        <h1>Sloth</h1>
+        <h1>Add a sloth</h1>
       </header>
       <SlothForm />
     </div>

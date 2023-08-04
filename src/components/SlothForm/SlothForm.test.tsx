@@ -15,10 +15,10 @@ describe("Given a SlothForm component", () => {
   });
 
   describe("When it renders", () => {
-    test("Then it should show a button with text Add a sloth ", () => {
+    test("Then it should show a button with text Send", () => {
       render(<SlothForm />);
 
-      const buttonText = "Add a sloth";
+      const buttonText = "Send";
 
       const labelButtonText = screen.getByRole("button", { name: buttonText });
 

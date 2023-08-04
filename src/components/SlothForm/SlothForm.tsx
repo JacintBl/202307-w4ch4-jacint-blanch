@@ -1,3 +1,4 @@
+import "./SlothForm.css";
 const SlothForm = (): React.ReactElement => {
   return (
     <form className="form">
@@ -11,7 +12,7 @@ const SlothForm = (): React.ReactElement => {
       <input type="number" className="input__form" id="fingers" />
 
       <button type="submit" className="button__form">
-        Add a sloth
+        Send
       </button>
     </form>
   );
